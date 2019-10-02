@@ -43,10 +43,11 @@
             this.ListadeProcesos.BackColor = System.Drawing.Color.PeachPuff;
             this.ListadeProcesos.Font = new System.Drawing.Font("MV Boli", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListadeProcesos.FormattingEnabled = true;
-            this.ListadeProcesos.ItemHeight = 17;
-            this.ListadeProcesos.Location = new System.Drawing.Point(137, 104);
+            this.ListadeProcesos.ItemHeight = 22;
+            this.ListadeProcesos.Location = new System.Drawing.Point(183, 128);
+            this.ListadeProcesos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ListadeProcesos.Name = "ListadeProcesos";
-            this.ListadeProcesos.Size = new System.Drawing.Size(187, 225);
+            this.ListadeProcesos.Size = new System.Drawing.Size(248, 268);
             this.ListadeProcesos.TabIndex = 0;
             // 
             // label1
@@ -55,9 +56,10 @@
             this.label1.BackColor = System.Drawing.Color.PeachPuff;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(259, 19);
+            this.label1.Location = new System.Drawing.Point(345, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(313, 43);
+            this.label1.Size = new System.Drawing.Size(385, 53);
             this.label1.TabIndex = 1;
             this.label1.Text = "Administrador de Tareas";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -70,18 +72,20 @@
             this.panel1.Controls.Add(this.btnComenzarProceso);
             this.panel1.Controls.Add(this.btnTerminarProceso);
             this.panel1.Controls.Add(this.btnObtenerProceso);
-            this.panel1.Location = new System.Drawing.Point(439, 104);
+            this.panel1.Location = new System.Drawing.Point(585, 128);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(194, 225);
+            this.panel1.Size = new System.Drawing.Size(259, 277);
             this.panel1.TabIndex = 2;
             // 
             // btnPropiedades
             // 
             this.btnPropiedades.BackColor = System.Drawing.Color.LightCoral;
-            this.btnPropiedades.Font = new System.Drawing.Font("Meiryo UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPropiedades.Location = new System.Drawing.Point(40, 165);
+            this.btnPropiedades.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPropiedades.Location = new System.Drawing.Point(53, 203);
+            this.btnPropiedades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPropiedades.Name = "btnPropiedades";
-            this.btnPropiedades.Size = new System.Drawing.Size(112, 27);
+            this.btnPropiedades.Size = new System.Drawing.Size(149, 33);
             this.btnPropiedades.TabIndex = 3;
             this.btnPropiedades.Text = "Propiedades";
             this.btnPropiedades.UseVisualStyleBackColor = false;
@@ -90,10 +94,11 @@
             // btnComenzarProceso
             // 
             this.btnComenzarProceso.BackColor = System.Drawing.Color.LightCoral;
-            this.btnComenzarProceso.Font = new System.Drawing.Font("Meiryo UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComenzarProceso.Location = new System.Drawing.Point(29, 114);
+            this.btnComenzarProceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComenzarProceso.Location = new System.Drawing.Point(39, 140);
+            this.btnComenzarProceso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnComenzarProceso.Name = "btnComenzarProceso";
-            this.btnComenzarProceso.Size = new System.Drawing.Size(140, 24);
+            this.btnComenzarProceso.Size = new System.Drawing.Size(187, 30);
             this.btnComenzarProceso.TabIndex = 2;
             this.btnComenzarProceso.Text = "Comenzar Proceso";
             this.btnComenzarProceso.UseVisualStyleBackColor = false;
@@ -102,21 +107,24 @@
             // btnTerminarProceso
             // 
             this.btnTerminarProceso.BackColor = System.Drawing.Color.LightCoral;
-            this.btnTerminarProceso.Font = new System.Drawing.Font("Meiryo UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTerminarProceso.Location = new System.Drawing.Point(40, 68);
+            this.btnTerminarProceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTerminarProceso.Location = new System.Drawing.Point(53, 84);
+            this.btnTerminarProceso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTerminarProceso.Name = "btnTerminarProceso";
-            this.btnTerminarProceso.Size = new System.Drawing.Size(112, 24);
+            this.btnTerminarProceso.Size = new System.Drawing.Size(149, 30);
             this.btnTerminarProceso.TabIndex = 1;
             this.btnTerminarProceso.Text = "Terminar Proceso";
             this.btnTerminarProceso.UseVisualStyleBackColor = false;
+            this.btnTerminarProceso.Click += new System.EventHandler(this.btnTerminarProceso_Click);
             // 
             // btnObtenerProceso
             // 
             this.btnObtenerProceso.BackColor = System.Drawing.Color.LightCoral;
-            this.btnObtenerProceso.Font = new System.Drawing.Font("Meiryo UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnObtenerProceso.Location = new System.Drawing.Point(40, 20);
+            this.btnObtenerProceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnObtenerProceso.Location = new System.Drawing.Point(53, 25);
+            this.btnObtenerProceso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnObtenerProceso.Name = "btnObtenerProceso";
-            this.btnObtenerProceso.Size = new System.Drawing.Size(112, 25);
+            this.btnObtenerProceso.Size = new System.Drawing.Size(149, 31);
             this.btnObtenerProceso.TabIndex = 0;
             this.btnObtenerProceso.Text = "Obtener Procesos";
             this.btnObtenerProceso.UseVisualStyleBackColor = false;
@@ -124,14 +132,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ListadeProcesos);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Administrador de Tareas";
             this.Load += new System.EventHandler(this.Form1_Load);

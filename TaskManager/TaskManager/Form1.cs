@@ -65,5 +65,18 @@ namespace TaskManager
         {
             ObtenerProcesos();
         }
+
+        private void btnTerminarProceso_Click(object sender, EventArgs e)
+        {
+            Process[] task = Process.GetProcesses();
+            foreach (Process proc in task)
+            {
+                if (ListadeProcesos.SelectedItem.ToString() == proc.ProcessName)
+                {
+                    proc.Kill();
+                    break;
+                }
+            }
+        }
     }
 }
