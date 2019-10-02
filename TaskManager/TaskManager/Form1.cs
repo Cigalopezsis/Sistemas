@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
-
+using Microsoft.VisualBasic;
 namespace TaskManager
 {
     public partial class Form1 : Form
@@ -30,7 +30,8 @@ namespace TaskManager
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            string path = Microsoft.VisualBasic.Interaction.InputBox("Ingrese la ruta del proceso", "Administrador de tareas", "", 350, 350);
+            Process.Start(path);
         }
 
         private void ObtenerProcesos()
