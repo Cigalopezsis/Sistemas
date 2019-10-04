@@ -18,3 +18,13 @@ C:\Users\David Barrera\Desktop\administrador\Sistemas\TaskManager\TaskManager\ob
 C:\Users\David Barrera\Desktop\administrador\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
 C:\Users\David Barrera\Desktop\administrador\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.exe
 C:\Users\David Barrera\Desktop\administrador\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\rossa\OneDrive\Escritorio\Sistemas\TaskManager\TaskManager\obj\Debug\TaskManager.pdb

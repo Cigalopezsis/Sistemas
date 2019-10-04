@@ -64,7 +64,11 @@ namespace TaskManager
 
         private void btnObtenerProceso_Click(object sender, EventArgs e)
         {
-            ObtenerProcesos();
+            Process[] task = Process.GetProcesses();
+            foreach (Process proc in task)
+            {
+                ListadeProcesos.Items.Add(proc.ProcessName);
+            }
         }
 
         private void btnTerminarProceso_Click(object sender, EventArgs e)
